@@ -1,8 +1,12 @@
 .header {
   background-image: url('img/header-bkg.png');
+  background-size: cover;
 }
 
 .header-menu {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
   font-family: Roboto;
   font-style: normal;
   font-weight: normal;
@@ -12,14 +16,24 @@
   color: #757575;
 }
 
+.header-links {
+  margin: 70px 0 0 0;
+}
+
+.header-link {
+  margin: 0 50px 0 50px;
+}
+
 .header-title {
   font-family: Trajan Pro 3;
   font-style: normal;
   font-weight: normal;
   font-size: 75.95px;
-  line-height: 85px;
+  line-height: 30px;
   text-align: center;
   color: #536073;
+  position: relative;
+  right: 7%;
 }
 
 .header-logo {
@@ -27,6 +41,8 @@
 }
 
 .header-btn--appointment {
+  position: relative;
+  left: 30%;
   border: 2px solid #536073;
   box-sizing: border-box;
   padding: 22px 28px 13px 28px;
@@ -44,6 +60,7 @@
 
 .header-btn--consultant {
   width: 160px;
+  margin: 53px 60px 0 0;
   padding: 14px 17px 10px 17px;
   background: #536073;
   font-family: Roboto;
@@ -74,10 +91,30 @@
 .header-social{
   display: flex;
   flex-direction: column;
-  margin: 0 0 0 60px;
+  padding: 75px 0 34px 60px;
 }
 
 .header-social-icon {
   width: 18px;
   margin: 25px 0 0 0;
+}
+
+.face {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.face-btn {
+  padding: 22px 49px 13px 49px;
+  background: #536073;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #FFFFFF;
 }
