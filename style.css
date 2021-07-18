@@ -1,0 +1,83 @@
+.header {
+  background-image: url('img/header-bkg.png');
+}
+
+.header-menu {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #757575;
+}
+
+.header-title {
+  font-family: Trajan Pro 3;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 75.95px;
+  line-height: 85px;
+  text-align: center;
+  color: #536073;
+}
+
+.header-logo {
+  margin: 50px 0 0 60px;
+}
+
+.header-btn--appointment {
+  border: 2px solid #536073;
+  box-sizing: border-box;
+  padding: 22px 28px 13px 28px;
+  font-family: Arial;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 17px;
+  text-align: center;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+
+  color: #536073;
+}
+
+.header-btn--consultant {
+  width: 160px;
+  padding: 14px 17px 10px 17px;
+  background: #536073;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #E5E5E5;
+  
+}
+
+.header-social--text {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.04em;
+  color: #536073;
+  transform: rotate(-1800deg);
+  writing-mode: vertical-lr;
+  margin: 0;
+}
+
+.header-social{
+  display: flex;
+  flex-direction: column;
+  margin: 0 0 0 60px;
+}
+
+.header-social-icon {
+  width: 18px;
+  margin: 25px 0 0 0;
+}
